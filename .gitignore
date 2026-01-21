@@ -1,0 +1,19 @@
+# DEPENDENCY FILES
+node_modules/
+package-lock.json
+
+# SYSTEM FILES
+.DS_Store
+Thumbs.db
+.vscode/
+
+# LOG FILES
+npm-debug.log*
+logs/
+*.log
+
+# DATABASE (mencegah data pemain ter-upload))
+data/*.sawit
+data/*.wal
+data/*.log
+data/*.cpo
